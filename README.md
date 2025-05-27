@@ -1,3 +1,14 @@
+## How To Install
+### Install by add directly in `manifest.json` in folder `Packages/manifest.json`
+- for version `10.1.0`
+```json
+"com.google.ads.mobile" : "https://github.com/googleads/googleads-mobile-unity.git?path=packages/com.google.ads.mobile#v10.1.0",
+```
+- dependency `external-dependency-manager 1.2.185`
+```json
+"com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm#v1.2.185",
+```
+
 # Google Mobile Ads Unity Plugin
 
 The Google Mobile Ads SDK is the latest generation in Google mobile advertising
